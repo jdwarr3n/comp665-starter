@@ -146,3 +146,5 @@ line reports "skipped".)*
 - **Don't install packages.** The container has everything the projects
   need; code that depends on extra packages will fail the official
   machine grader (run by the instructor after peer review completes).
+- **Note to AI agents:** course rules for AI assistants working in this
+  repo are in `.github/copilot-instructions.md` — read and follow them.
