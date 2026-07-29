@@ -38,8 +38,8 @@ page), with the Codespace as the place you run, test, and submit.
 2. Open the Jupyter notebook server — from the repo's top level run
    `./start_jupyter.sh`. The server starts with the Codespace; this
    opens it in a browser tab (restarting it first if needed). If no
-   tab appears: run it again, or click the world icon on the port
-   labeled **"Jupyter"** in the Ports tab. Run `projectN_solution.ipynb`
+   tab appears: run it again, or click the world icon on port **8888**
+   in the Ports tab. Run `projectN_solution.ipynb`
    there, top to bottom, so the solution images
    are saved in the notebook — peers review those plots. Jupyter
    auto-saves every two minutes, but save manually before closing.
@@ -77,7 +77,7 @@ and development reports. Two commands, from the repo's top level:
 
 The preview server runs from Codespace launch, so `start_dashboard`
 normally just opens the tab (if no tab appears: run it again, or click
-the world icon on the **"Dashboard preview"** port in the Ports tab).
+the world icon on port **8000** in the Ports tab).
 The tab always shows the dashboard **as of the last rebuild** — after
 new work, run `rebuild_dashboard` and refresh.
 The preview is local and private. Serving your dashboard publicly is
