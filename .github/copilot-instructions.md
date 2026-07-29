@@ -9,11 +9,18 @@
 - Follow pylint conventions (the course configuration is `public/pylintrc`).
 - Never edit the checkers, `public/`, `data/`, the environment files,
   or anything under `docs/` (generated).
-- The course workflow commands, all run from the repo's top level unless
-  noted: `./start_jupyter.sh` (open Jupyter), `./start_dashboard.sh`
-  (open the dashboard preview), `./rebuild_dashboard.sh` (rebuild it),
-  `cd weekN && ./build` (run the machine grader + style checker on
-  `projectN_solution.ipynb`), `python3 make_manifest.py N` (final
-  rebuild + commit + push + write the Canvas submission manifest), and
-  `./update_course.sh` (pull course updates). When the student asks how
-  to test or submit, walk them through these — details are in README.md.
+## Course workflow commands
+
+Run from the repo's top level, except `./build`:
+
+| Command | What it does |
+|---|---|
+| `./start_jupyter.sh` | Open the Jupyter notebook server in a browser tab |
+| `./start_dashboard.sh` | Open the dashboard preview in a browser tab |
+| `./rebuild_dashboard.sh` | Rebuild the dashboard from the `weekN/` work |
+| `cd weekN && ./build` | Run the machine grader + style checker on `projectN_solution.ipynb` |
+| `python3 make_manifest.py N` | Rebuild, commit, push, and write the week's Canvas submission manifest |
+| `./update_course.sh` | Pull the latest course updates |
+
+When the student asks how to test or submit, walk them through these —
+details are in README.md.
